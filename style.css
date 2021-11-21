@@ -202,21 +202,24 @@ h4 {
     color: #fff;
     font-size: 1.5em;
     line-height: 1em;
-    text-transform: uppercase;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
 }
 
 .footer-logo
 {
-    position: relative;
-    max-width: 50px;
     display: flex;
+    max-width: 50px;
     margin-top: 10px;
-    margin-bottom: 20px;
-    align-items: flex-start;
-    align-self: flex-start;
+    margin-bottom: 10px;
 }
 
 .footer-text {
+    padding-left: 20px;
     color: #fff;
     font-size: 18px;
 }
