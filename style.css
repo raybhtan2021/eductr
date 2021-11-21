@@ -185,6 +185,42 @@ h4 {
     font-weight: 700;
 }
 
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    align-items: flex-start;
+    background-color: #3D518C;
+    text-align: left;
+}
+
+.footer-heading {
+    display: inline-block;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.footer-logo
+{
+    position: relative;
+    max-width: 50px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 18px;
+}
+
 .circle
 {
     position: absolute;
